@@ -21,12 +21,18 @@ Download Anaconda 3-5.2.0 tarball on https://www.anaconda.com/distribution/#down
 pip install lightgbm  
   
 ## Content  
-* **./features/circLGB/test.csv:** The testing examples with 191 sequence-derived features and label indicating the type of RNA    
-* **./weights/circLGB.txt:** The well-trained weights for circLGB model      
-* **./circLGB.py:** The Python code, it can be ran to reproduce our circLGB results  
-* **./result/circLGB_test_result.csv:** The prediction results of circLGB on the test data 
+* **data/circLGB:** Bed files used for training and testing our circLGB model
+* **data/circMRT:** Bed and Fasta files used for training and testing our circMRT model
+* **features/circLGB:** 191-dimensional sequence-derived features of the given sequence for identifying circRNA from other lncRNAs
+* **features/circMRT:** 182-dimensional sequence-derived features of the given sequence for predicting circRNA regulatory interactions
+* **features/feature_importance:** Ranked feature list for circLGB and circMRT
+* **weights:** The well-trained weights for circLGB & circMRT models      
+* **circLGB.py:** The Python code, it can be ran to reproduce our circLGB results
+* **circMRT.py:** The Python code, it can be ran to reproduce our circMRT results
+* **result/circLGB_test_result.csv:** The prediction results of circLGB on the test data 
 #### **Note:**    
-The test.csv can replaced or modified to 191 sequence features of interest  
+1. The features/circLGB/test.csv can replaced or modified to 191 sequence-derived features of interest for circRNA identification. 
+2. The features/circMRT/test.csv can replaced or modified to 182 sequence-derived features of interest for circRNA regulatory interaction prediction
 
 ## Testing circLGB with test set
 python circLGB.py

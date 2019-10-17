@@ -22,18 +22,18 @@ pip install lightgbm
   
 ## Content  
 #### **data**   
-* **circLGB**: The **.bed** files for training and testing our circLGB model  
-* **circMRT**: The **.bed (.fasta)** files for training and testing our circMRT model  
+* **circLGB:** The **.bed** files for training and testing our circLGB model  
+* **circMRT:** The **.bed (.fasta)** files for training and testing our circMRT model  
 #### **features**   
-  **circLGB**: Sequence-derived features of the given sequences for circRNA identification    
-  **circMRT**: Sequence-derived features of the query sequences for circRNA regulatory interactions prediction  
-  feature_importance: Ranked feature list for circLGB and circMRT  
+* **circLGB:** Sequence-derived features of the given sequences for circRNA identification    
+* **circMRT:** Sequence-derived features of the query sequences for circRNA regulatory interactions prediction  
+* **feature_importance:** Ranked feature list for circLGB and circMRT  
 #### **weights**   
-  The well-trained weights for circLGB & circMRT models        
+* The well-trained weights for circLGB & circMRT models        
 #### **circLGB.py & circMRT.py**   
-  The Python codes, they can be ran to reproduce our predictors results
+* The Python codes, they can be ran to reproduce our predictors results
 #### **result**     
-  The prediction results of our predictors on the test data    
+* The prediction results of our predictors on the test data    
 #### **Note:**    
   The **features/circLGB/test.csv** and **features/circMRT/test.csv** can replaced or modified to the sequence-derived features of interest for identifying circular RNA and predicting its regulatory interactions, respectively. 
 

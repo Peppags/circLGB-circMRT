@@ -28,15 +28,15 @@ pip install lightgbm
   circLGB: 191-dimensional sequence-derived features of the given sequence for circRNA identification    
   circMRT: 182-dimensional sequence-derived features of the given sequence for circRNA regulatory interactions prediction  
   feature_importance: Ranked feature list for circLGB and circMRT  
-* **weights:**   
+* **weights**   
   The well-trained weights for circLGB & circMRT models        
-* **circLGB.py & circMRT.py:**   
+* **circLGB.py & circMRT.py**   
   The Python codes, they can be ran to reproduce our predictors results
 * **result**     
   The prediction results of our predictors on the test data    
 #### **Note:**    
-1. The features/circLGB/test.csv can replaced or modified to 191 sequence-derived features of interest for circRNA identification. 
-2. The features/circMRT/test.csv can replaced or modified to 182 sequence-derived features of interest for circRNA regulatory interaction prediction
+  The features/circLGB/test.csv and features/circMRT/test.csv can replaced or modified to the sequence-derived features of interest for identifying circular RNA and predicting its regulatory interactions, respectively. 
+
 
 ## Testing circLGB with test set
 python circLGB.py

@@ -9,7 +9,7 @@ Identifying circular RNA and predicting its regulatory interactions by machine l
   [numpy](https://numpy.org/) 1.16.4  
   [pandas](https://pandas.pydata.org/) 0.23.0  
   [scikit-learn](https://scikit-learn.org/stable/) 0.19.1  
-  [scipy](https://www.scipy.org/) 1.1.0 
+  [scipy](https://www.scipy.org/) 1.1.0   
   [lightgbm](https://github.com/Microsoft/LightGBM) 
   
 ## Installation guide

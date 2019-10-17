@@ -21,12 +21,13 @@ Download Anaconda 3-5.2.0 tarball on https://www.anaconda.com/distribution/#down
 pip install lightgbm  
   
 ## Content  
-* **data:**   
-  circLGB: Bed files used for training and testing our circLGB model
-* **data/circMRT:** Bed and Fasta files used for training and testing our circMRT model
-* **features/circLGB:** 191-dimensional sequence-derived features of the given sequence for identifying circRNA from other lncRNAs
-* **features/circMRT:** 182-dimensional sequence-derived features of the given sequence for predicting circRNA regulatory interactions
-* **features/feature_importance:** Ranked feature list for circLGB and circMRT
+* **data**   
+  circLGB: Bed files used for training and testing our circLGB model  
+  data/circMRT:Bed and Fasta files used for training and testing our circMRT model  
+* **features**   
+  circLGB: 191-dimensional sequence-derived features of the given sequence for identifying circRNA from other lncRNAs    
+  circMRT: 182-dimensional sequence-derived features of the given sequence for predicting circRNA regulatory interactions    
+  feature_importance: Ranked feature list for circLGB and circMRT  
 * **weights:** The well-trained weights for circLGB & circMRT models      
 * **circLGB.py:** The Python code, it can be ran to reproduce our circLGB results
 * **circMRT.py:** The Python code, it can be ran to reproduce our circMRT results

@@ -35,7 +35,7 @@ pip install lightgbm
 #### **result**     
 * The prediction results of our predictors on the test data    
 #### **Note:**    
-  The **features/circLGB/test.csv** and **features/circMRT/test.csv** can replaced or modified to the sequence-derived features of interest for identifying circular RNA and predicting its regulatory interactions, respectively. 
+  The **features/circLGB/test.csv** and **features/circMRT/test.csv** can replaced or modified to the sequence-derived features of interest for identifying circRNA and predicting its regulatory interactions, respectively. 
 
 
 ## Testing circLGB with test set

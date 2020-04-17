@@ -52,4 +52,4 @@ We have also provided an easy-to-use circLGB website with graphical interfance f
 * Second, click the **Submit** button to upload the query sequence.  
 * Third, click the **Prediction** button for prediction. The web server will return the prediction result in the **Gray** box on the right when the job finished.  
 
-![image](https://github.com/Peppags/circLGB-circMRT/blob/master/figure/figure.jpg)
+<div align=center><img width="150" height="150" src="https://github.com/Peppags/circLGB-circMRT/blob/master/figure/figure.jpg"/></div>

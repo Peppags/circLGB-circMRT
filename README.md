@@ -53,4 +53,4 @@ As an example for using the web server, we present the prediction of hsa_circ_00
 * Click the **Submit** button to upload hsa_circ_0000030 sequence.  
 * Click the **Prediction** button for prediction. The web server returns the prediction result "circRNA" in the **Gray** box on the right.  
 
-<div align=center><img width="900" height="400" src="https://github.com/Peppags/circLGB-circMRT/blob/master/figure/figure.jpg"/></div>
+<div align=center><img width="800" height="400" src="https://github.com/Peppags/circLGB-circMRT/blob/master/figure/figure.jpg"/></div>

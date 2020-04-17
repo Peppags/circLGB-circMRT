@@ -47,7 +47,7 @@ python circMRT.py
 
 ## Webserver (Currently under construction)
 We have also provided an easy-to-use circLGB website with graphical interfance for general users with limited access to computing resources, which is freely accessible through http://www.circlgb.com. The following description gives a step-by-step instruction on how to use the webserver to get the prediction result. The **help** page provides a detailed explanation of manual process.
-* First, users need to **submit** the query sequence into the **input box** to make prediction.  
+* First, users need to **submit** the query sequence into the **input** box to make prediction.  
 **Note:** the input sequence should be in the **FASTA** format.
 * Second, click the **Submit** button to upload the query sequence.  
 * Third, click the **Prediction** button for prediction. The web server will return the prediction result in the **Gray** box on the right when the job finished.  

@@ -43,14 +43,3 @@ python circLGB.py
 
 ## Testing circMRT with test set
 python circMRT.py
-
-
-## Webserver (Currently under construction)
-We have also provided an easy-to-use circLGB website with graphical interface for general users with limited access to computing resources, which is freely accessible through http://www.circlgb.com. The following description gives a step-by-step instruction on how to use the webserver to get the prediction result. First, click the **START** button to be taken to the prediction page. Second, input the query sequence in the **Input** box and click the **Submit** button for prediction. Note that, the input sequence should be in the **FASTA** format. Upon submitting the sequence, the software will extract the features for the given sequence from a server. The web server returns the prediction result in the **Gray** box on the right when the job finished. The **help** page provides a detailed explanation of manual process. <Br/> 
-As an example for using the web server, we present the prediction of hsa_circ_0000030. Users can submit query sequence in the following steps:
-* Click the **START** button to be taken to the prediction page.
-* Input the  hsa_circ_0000030 sequence into the **input** box and then click the  **Submit** button to make prediction.
-* Click the **Submit** button to upload hsa_circ_0000030 sequence.  
-* Click the **Prediction** button for prediction. The web server returns the prediction result "circRNA" in the **Gray** box on the right.  
-
-<div align=center><img width="800" height="400" src="https://github.com/Peppags/circLGB-circMRT/blob/master/figure/figure.jpg"/></div>
